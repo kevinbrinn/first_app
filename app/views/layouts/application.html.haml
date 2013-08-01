@@ -1,0 +1,8 @@
+- provide :content do
+  .row
+    .span3
+      = yield :sidebar
+      = render 'shared/default_sidebar'
+    .span9= yield
+
+= render template: 'layouts/base'
