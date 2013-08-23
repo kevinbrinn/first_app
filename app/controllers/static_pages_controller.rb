@@ -1,3 +1,3 @@
 class StaticPagesController < ApplicationController
-  layout 'full_width', only: :home
+	layout 'full_width', only: :home
 end
